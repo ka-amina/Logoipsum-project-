@@ -1,0 +1,531 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  /* border: 1px solid red; */
+}
+
+.container {
+  padding: 2rem;
+}
+
+/*---nav style---*/
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navlist {
+  display: flex;
+}
+.nav-content ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.login {
+ 
+  border-radius: 1rem;
+  border: 3px solid #1daeff;
+  padding: 8px;
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.login a{
+  color: #005585;
+}
+.logo {
+  margin-left: 2rem;
+}
+.home-link, .property-link, .contact-link, .blog-link{
+  color: #791BD0;
+}
+
+.navlist a:hover{
+  color: #1daeff;
+}
+/*---welcome---*/
+.hero {
+  background-size: cover;
+  width: 100%;
+  height: 39.25rem;
+  background-image: url(../images/welcomehero.webp);
+}
+
+.hero-title {
+  padding-top: 2.1rem;
+  margin-left: 4.5rem;
+}
+.hero-title p {
+  font-size: 1.25rem;
+  align-items: center;
+}
+.hero-title h1 {
+  font-size: 4rem;
+}
+.search-by {
+  margin-top: 2rem;
+  margin-left: 4.5rem;
+  cursor: pointer;
+}
+.search-select {
+  border: none;
+  background-color: #ecf1f8;
+  color: #110229;
+}
+.runt {
+  background-color: white;
+  border: none;
+  border-radius: 1.25rem 1.25rem 0 0;
+  padding: 0.75rem;
+}
+
+.searchForm {
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-left: 4.5rem;
+  width: 45%;
+}
+form input {
+  border: none;
+}
+.search-button {
+  border: none;
+  background-color: #1daeff;
+}
+form select {
+  border: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+/* contries */
+
+.avaible-contries {
+  display: flex;
+  font-size: 2.25rem;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.avaible-contries span {
+  display: flex;
+  justify-content: center;
+}
+.diff-contries {
+  display: flex;
+  justify-content: space-between;
+}
+.contry-card {
+  position: relative;
+}
+.country-name {
+  position: absolute;
+  padding-left: 8%;
+  padding-top: 4%;
+  font-weight: bold;
+  font-size: 1.27rem;
+}
+
+/* homes information */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.section-header h2 {
+  font-size: 1.25rem;
+}
+
+.see-all {
+  color: #0053B3;
+}
+
+.property-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.property-card {
+  padding: 2rem;
+  display: flex;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  max-width: clamp(20rem, 70vw, 46.25rem);
+  min-width: 20rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.property-card img {
+  width: 30%;
+  /* height: 73.75%; */
+  height: auto;
+  
+} 
+
+
+.property-card h3 {
+  font-size: 1.7rem;
+  margin-left: 1rem;
+}
+.property-det {
+  width: 70%;
+  margin-top: -1rem;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+  color: #545569;
+  width: 100%;
+}
+.postedby {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+.postedby button {
+  color: white;
+  background-color: #545569;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.75rem;
+}
+.postedby span {
+  color: #545569;
+}
+
+/* find */
+.contact-section{
+  background-image: url(../images/bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.find-info {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.find-info img {
+  border-radius: 0 1.25rem 1.25rem 0;
+}
+.find-infos {
+  width: 50%;
+}
+.find-infos h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 4rem;
+  margin-top: 5rem;
+}
+.ffind-infos {
+  font-size: 1.25rem;
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+.find-infos button {
+  margin-left: 4rem;
+  margin-top: 7rem;
+  background-color: #0053B3;
+  border: none;
+  border-radius: 1rem;
+padding: 1rem;
+  color: white;
+}
+/* footer start */
+.footer-grid {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.footer h2 {
+  font-size: 1rem;
+  font-size: larger;
+}
+.social-media {
+  margin-top: 1.5rem;
+  /* width: 100%; */
+  display: flex;
+  gap: 1rem;
+  /* justify-content: space-between; */
+}
+
+.social-media img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer p {
+  color: #545569;
+  margin-top: 1.8rem;
+}
+.copyright {
+  color: #545569;
+  margin-top: 1rem;
+}
+
+.take-tour, .company-links {
+  list-style: none;
+  padding: 0;
+}
+
+.take-tour li, .company-links li {
+  margin-bottom: 1.3rem;
+}
+
+.take-tour a, .company-links a{
+  color: black;
+}
+
+.take-tour-email {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.take-tour-email input {
+  padding: 0.8rem 3rem 0.8rem 1rem; /* Added space for button */
+  border: 1px solid #ccc;
+  border-radius: 30px; /* Makes the input field rounded */
+  flex-grow: 1;
+  width: 100%;
+  font-size: 0.9rem;
+  box-sizing: border-box; /* Ensures padding doesn't affect input width */
+}
+
+.take-tour-email button {
+  position: absolute;
+  right: 5px; /* Places the button inside the input on the right */
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: #1daeff;
+  padding: 0.5rem;
+  border-radius: 50%; /* Makes the button round */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.take-tour-email button img {
+  width: 16px;
+  height: 16px;
+}
+
+/* .take-tour-email button {
+  border: none;
+  background-color: #1daeff;
+  margin-top: 1.2rem;
+}
+
+.take-tour {
+  margin-top: 2rem;
+} */
+ 
+
+/* property page */
+
+.property {
+  margin-right: 2rem;
+}
+
+.property-page {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  margin-top: 6rem;
+}
+
+.bed1 {
+  border: none;
+  cursor: pointer;
+  border-radius: 1.25rem 1.25rem 0 0;
+  padding: 0.75rem;
+  background-color: #ecf1f8;
+}
+
+.bed {
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+.properties {
+  background-color: #ecf1f8;
+  padding: 1rem;
+  border-radius: 0 1.25rem 1.25rem 1.25rem;
+  padding-bottom: 2rem;
+}
+.properties a {
+  margin-top: 1.75rem;
+  display: flex;
+  justify-content: end;
+}
+
+.properties-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.6rem;
+}
+.properties-card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1.5rem;
+  padding-bottom: 2rem;
+  background-color: white;
+}
+
+.properties-card img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.properties-card h3 {
+  margin-left: 1rem;
+}
+.properties-card div {
+  margin-left: 1rem;
+}
+.properties-card p {
+  margin-left: 1rem;
+}
+.properties-card-btn {
+  display: flex;
+  justify-content: end;
+  margin-top: 1.75rem;
+}
+.properties-card button {
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #545569;
+  margin-right: 1rem;
+  color: white;
+}
+
+.properties-card span {
+  color: #545569;
+}
+
+.properties-card div span {
+  margin-right: 2.2rem; 
+}
+
+.properties-card div span:last-child {
+  margin-right: 0; 
+}
+
+.property-post {
+  display: flex;
+  justify-content: end;
+  margin-right: 1.75rem;
+  color: #545569;
+}
+
+/* blog page */
+.blog-h2 {
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.blogs-articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+.blog-card img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.blogs-articles {
+  background-color: #ecf1f8;
+  padding: 1rem;
+  border-radius: 1.25rem;
+  padding-bottom: 2rem;
+}
+
+.blog-card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1.5rem;
+  padding-bottom: 2rem;
+  background-color: white;
+}
+.blog-card h3,
+.blog-card p,
+.blog-card div {
+  margin-left: 1rem;
+}
+
+/* contact */
+
+.contact {
+  /* padding-top: 2.10rem; */
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  height: 47.25rem;
+  background-image: url(../images/contact.webp);
+}
+
+.contact-Form {
+  position: absolute;
+  margin-top: 9.85rem;
+  margin-left: 5.75rem;
+}
+
+.input-row {
+  margin-bottom: 3.31rem;
+}
+.input-row input {
+  margin-right: 6.125rem;
+}
+
+.input-row input:last-child {
+  margin-right: 0;
+}
+
+.contact-Form input {
+  border: 1px solid #545569;
+  border-radius: 0.93rem;
+  width: 14.36rem;
+  height: 2.87rem;
+  padding-left: 2rem;
+}
+
+textarea {
+  border: 1px solid #545569;
+  border-radius: 0.93rem;
+  width: 37.35rem;
+  height: 7rem;
+  padding-left: 2rem;
+  padding-top: 1.2rem;
+}
+
+.contact-Form button{
+  border: none;
+  border-radius: 0.8rem;
+  margin-top: 2.37rem;
+  cursor: pointer;
+  background-color: #0053B3;
+  color: white;
+  width: 13.3rem;
+  height: 3.12rem;
+}

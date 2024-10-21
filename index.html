@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Easy way to find a perfect property" />
+    <title>logoipsum Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/Responsive.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header-top">
+        <nav class="navbar">
+          <div class="nav-container">
+            <a href="index.html" class="logo" aria-label="home page">
+              <img
+                src="./assets/logo.svg"
+                alt="logo image"
+                width="182"
+                height="52"
+              />
+            </a>
+
+            <div class="nav-content">
+              <ul class="navlist">
+                <li class="list-item">
+                  <a href="index.html" class="home-link" aria-label="home page"
+                    >HOME</a
+                  >
+                </li>
+                <li class="list-item">
+                  <a
+                    href="./pages/Properties.html"
+                    class="link-item"
+                    aria-label="Properties"
+                    >PROPERTIES</a
+                  >
+                </li>
+                <li class="list-item">
+                  <a
+                    href="./pages/Blog.html"
+                    class="link-item"
+                    aria-label="vlog"
+                    >BLOG</a
+                  >
+                </li>
+                <li class="list-item">
+                  <a
+                    href="./pages/Contact.html"
+                    class="link-item"
+                    aria-label="Contact"
+                    >CONTACT</a
+                  >
+                </li>
+
+                <li class="login">
+                  <a
+                    href="./pages/Login.html"
+                    class="link-item"
+                    aria-label="login"
+                    >LOG IN</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- welcom start here -->
+      <section id="home" class="hero">
+        <div class="hero-title">
+          <h1>Easy way to find a <br />perfect property</h1>
+          <p>
+            We provide a complete service for the sale,<br />
+            purchase or rental of real estate.
+          </p>
+        </div>
+        <div class="search-content">
+          <div class="search-by">
+            <button class="runt">RUNT</button>
+            <button class="search-select">BUY</button>
+            <button class="search-select">SELL</button>
+          </div>
+          <div class="searchForm">
+            <form action="form">
+              <input
+                id="location"
+                name="location"
+                type="location"
+                placeholder="Location"
+              />
+              <label for="property-type" class="visually-hidden"
+                >Property Type</label
+              >
+              <select
+                name="property-type"
+                id="property-type"
+                aria-label="Property Type"
+              >
+                <option value="" disabled selected>Property Type</option>
+                <option value="residential">Residential</option>
+                <option value="commercial">Commercial</option>
+                <option value="land">Land</option>
+              </select>
+              <input
+                type="Price Range"
+                type="Number"
+                placeholder="Price Rang"
+              />
+              <button class="search-button">
+                <img src="/assets/icons/search.svg" alt="search-botton" />
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="searc-bar"></div>
+      </section>
+      <!-- welcome section ends -->
+      <section id="contries" class="contries">
+        <div class="avaible-contries">
+          <div>
+            We are available in many <br /><span>well-known countries</span>
+          </div>
+        </div>
+        <div class="diff-contries">
+          <div class="country-card">
+            <span class="country-name">AMERICA</span>
+            <img
+              src="/assets/images/contries/america.webp"
+              alt="america"
+              width="278"
+              height="426"
+            />
+          </div>
+          <div class="country-card">
+            <span class="country-name">SPAIN</span>
+            <img
+              src="/assets/images/contries/spain.webp"
+              alt="spain"
+              width="278"
+              height="426"
+            />
+          </div>
+          <div class="country-card">
+            <span class="country-name">LONDON</span>
+            <img
+              src="/assets/images/contries/london.webp"
+              alt="london"
+              width="278"
+              height="426"
+            />
+          </div>
+          <div class="country-card">
+            <span class="country-name">FRANCE</span>
+            <img
+              src="/assets/images/contries/france.webp"
+              alt="france"
+              width="278"
+              height="426"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- recently add -->
+      <section id="recentlyAdd" class="recently-add">
+        <div class="section-header">
+          <h2 class="recent">Recently Added</h2>
+          <a href="#" class="see-all">See all</a>
+        </div>
+        <div class="property-grid">
+          <!-- 1 -->
+          <div class="property-card">
+            <img
+              src="/assets/images/Add/c1.webp"
+              alt="c1"
+              width="166"
+              height="205"
+            />
+            <div class="property-det">
+              <h3 class="card-contries-adress">
+                103/143 West Street, <br />Crows Nest
+              </h3>
+              <div class="details">
+                <span>10 Bedroom</span><span>150 M</span><span>2 Garage</span>
+              </div>
+              <div class="postedby">
+                <span>Posted by X Builder</span>
+                <button class="price-button">$45,545</button>
+              </div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="property-card">
+            <img
+              src="/assets/images/Add/c2.webp"
+              alt="c1"
+              width="166"
+              height="205"
+            />
+            <div class="property-det">
+              <h3 class="card-contries-adress">
+                103/143 West Street, <br />Crows Nest
+              </h3>
+              <div class="details">
+                <span>10 Bedroom</span><span>150 M</span><span>2 Garage</span>
+              </div>
+              <div class="postedby">
+                <span>Posted by X Builder</span>
+                <button class="price-button">$45,545</button>
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="property-card">
+            <img
+              src="/assets/images/Add/c3.webp"
+              alt="c1"
+              width="166"
+              height="205"
+            />
+            <div class="property-det">
+              <h3 class="card-contries-adress">
+                103/143 West Street, <br />Crows Nest
+              </h3>
+              <div class="details">
+                <span>10 Bedroom</span><span>150 M</span><span>2 Garage</span>
+              </div>
+              <div class="postedby">
+                <span>Posted by X Builder</span>
+                <button class="price-button">$45,545</button>
+              </div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="property-card">
+            <img
+              src="/assets/images/Add/c4.webp"
+              alt="c1"
+              width="166"
+              height="205"
+            />
+            <div class="property-det">
+              <h3 class="card-contries-adress">
+                103/143 West Street, <br />
+                Crows Nest
+              </h3>
+              <div class="details">
+                <span>10 Bedroom</span><span>150 M</span><span>2 Garage</span>
+              </div>
+              <div class="postedby">
+                <span>Posted by X Builder</span>
+                <button class="price-button">$45,545</button>
+              </div>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="property-card">
+            <img
+              src="/assets/images/Add/c5.webp"
+              alt="c1"
+              width="166"
+              height="205"
+            />
+            <div class="property-det">
+              <h3 class="card-contries-adress">
+                103/143 West Street, <br />
+                Crows Nest
+              </h3>
+              <div class="details">
+                <span>10 Bedroom</span><span>150 M</span><span>2 Garage</span>
+              </div>
+              <div class="postedby">
+                <span>Posted by X Builder</span>
+                <button class="price-button">$45,545</button>
+              </div>
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="property-card">
+            <img
+              src="/assets/images/Add/c6.webp"
+              alt="c1"
+              width="166"
+              height="205"
+            />
+            <div class="property-det">
+              <h3 class="card-contries-adress">
+                103/143 West Street, <br />
+                Crows Nest
+              </h3>
+              <div class="details">
+                <span>10 Bedroom</span><span>150 M</span><span>2 Garage</span>
+              </div>
+              <div class="postedby">
+                <span>Posted by X Builder</span>
+                <button class="price-button">$45,545</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- find -->
+      <section id="contact-section" class="contact-section">
+        <div class="find-info">
+          <div class="find-infos">
+            <h2>Find your best <br />Real Estate</h2>
+            <div class="ffind-infos">
+              <span
+                >We provide a complete service for the sale, <br />
+                purchase or rental of real estate.
+              </span>
+            </div>
+            <div>
+              <button>CONTACT US</button>
+            </div>
+          </div>
+          <img src="./assets/images/find/find.webp" alt="find yourbest" />
+        </div>
+      </section>
+      <!-- footer -->
+      <footer id="footer" class="footer">
+        <div class="footer-grid">
+          <!-- desc -->
+          <div>
+            <img
+              src="./assets/logo.svg"
+              alt="logo image"
+              width="182"
+              height="52"
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="social-media">
+              <a href="#" class="fb"
+                ><img src="/assets/logo/fb.png" alt="fb"
+              /></a>
+              <a href="#" class="twitter"
+                ><img src="./assets/logo/twitter.png" alt="twitter"
+              /></a>
+              <a href="#" class="insta"
+                ><img src="./assets/logo/insta.png" alt="instagram"
+              /></a>
+              <a href="#" class="linkedin"
+                ><img src="./assets/logo/linkdin.png" alt="linkedin"
+              /></a>
+            </div>
+            <div class="copyright">
+              <span>© 2024 . All rights reserved.</span>
+            </div>
+          </div>
+          <!-- take a tour -->
+          <div>
+            <h2>Take a tour</h2>
+            <ul class="take-tour">
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+          <!-- our company -->
+          <div>
+            <h2>Our Company</h2>
+            <ul class="company-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Agents</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Media</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- subscribe -->
+          <div>
+            <h2>Subscribe</h2>
+            <p>Subscribe to get latest property, blog news from us</p>
+            <div class="take-tour-email">
+              <input type="text" placeholder="Email Address" />
+              <button>
+                <img src="/assets/icons/ArrowRight.svg" alt="arrowRight" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
