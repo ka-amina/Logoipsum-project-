@@ -76,45 +76,38 @@
             purchase or rental of real estate.
           </p>
         </div>
-        <div class="search-content">
-          <div class="search-by">
-            <button class="runt">RUNT</button>
-            <button class="search-select">BUY</button>
-            <button class="search-select">SELL</button>
-          </div>
-          <div class="searchForm">
-            <form action="form">
-              <input
-                id="location"
-                name="location"
-                type="location"
-                placeholder="Location"
-              />
-              <label for="property-type" class="visually-hidden"
-                >Property Type</label
-              >
-              <select
-                name="property-type"
-                id="property-type"
-                aria-label="Property Type"
-              >
-                <option value="" disabled selected>Property Type</option>
-                <option value="residential">Residential</option>
-                <option value="commercial">Commercial</option>
-                <option value="land">Land</option>
+        <div class="search-by">
+          <button class="runt">RUNT</button>
+          <button class="search-select">BUY</button>
+          <button class="search-select">SELL</button>
+        </div>
+
+        <div class="searchForm">
+          <form action="form">
+            <div class="search-field">
+              <label for="location">Location</label>
+              <input type="text" id="location" placeholder="Select Your City" />
+            </div>
+
+            <div class="search-field">
+              <label for="property-type">Property Type</label>
+              <select id="property-type">
+                <option>Choose Property Type</option>
               </select>
-              <input
-                type="Price Range"
-                type="Number"
-                placeholder="Price Rang"
-              />
-              <button class="search-button">
+            </div>
+
+            <div class="search-field">
+              <label for="price-range">Price Range</label>
+              <select id="price-range">
+                <option>Choose Price Range</option>
+              </select>
+            </div>
+
+            <button class="search-button">
                 <img src="./assets/icons/search.svg" alt="search-botton" />
               </button>
-            </form>
-          </div>
+          </form>
         </div>
-        <div class="searc-bar"></div>
       </section>
       <!-- welcome section ends -->
       <section id="contries" class="contries">
